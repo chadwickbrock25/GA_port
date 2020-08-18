@@ -2,11 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./public/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <title>Chadwick's Portfolio</title>
 </head>
 <body>
-    <h1>Chadwick's Portfolio</h1>
-    
+    <header>
+        <h1>Chadwick's Portfolio</h1>
+        <nav>
+            <form action="mailto:Chadwick.brock25@gmail.com" method="GET">
+                <input class='ibox' name="subject" type="text" value='Chadwick.brock25@gmail.com'/>
+                <input class='submit' type="submit" value="Contact" />
+            </form>
+            <div class="links">
+                <a href='https://github.com/chadwickbrock25'><button><h3>Github</h3></button></a>
+                <a href='https://www.linkedin.com/in/brock25/'><button><h3>Linkedin</h3></button></a>
+                <a href='https://www.imdb.com/name/nm7480340/?ref_=nv_sr_srsg_2'><button><h3>IMDB</h3></button></a>
+            </div>
+        </nav>
+    </header>
+    <div class="story">
+        <div class="skills"></div>
+        <h2 class="p-header">Projects</h2>
+        <div class="projects">
+            
+            <a href="https://chadwickbrock25.github.io/backpacking/"><div class="backpack">
+                <button><h4>Backpack Planning</h4></button>
+                <!-- <ol>
+                    <li>Check weather for hiking location</li>
+                    <li>List the items you'll bring</li>
+                    <li>Schedule items used by day</li>
+                    <li>Discover the order to pack your bag</li>
+                </ol> -->
+            </div></a>
+            <a href='https://billy-batts.herokuapp.com/merch'><div class="billy">
+                <button><h4>Billy Batts Band</h4></button>
+                    <!-- <p>CRUD app skelton developing into their hub to feature multiple social media feeds onto one page</p> -->
+            </div></a>
+            <a href='https://tweetbattle-sei.herokuapp.com/'><div class="guess">
+                <button><h4>Guess Who Said It</h4></button>
+                    <!-- <p>Quotes from Donald Trump & Kanye West are randomized. The user guesses who said it then a gif responds with the answer. Make a profile to save your favorite quotes.</p> -->
+            </div></a>
+            <a href="https://master.dmo5s8wokt3sm.amplifyapp.com/"><div class="math">
+                <button><h4>Keeping Math 100</h4></button>
+                    <!-- <p>An elementary math game cycling through single digit addition in 100 seconds with 10 seconds to answer each question. When time is up the questions missed & game results are displayed.</p> -->
+            </div></a>
+        </div>
+        <div class="about">
+            <h2>About Me</h2>
+        </div>
+    </div>
 </body>
 </html>

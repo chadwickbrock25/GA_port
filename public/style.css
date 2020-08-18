@@ -1,0 +1,156 @@
+body {
+    text-align: center;
+}
+header {
+    background: url("evolve_back.jpg")no-repeat center fixed; 
+    background-size: cover;
+    min-height: 72rem;
+    min-width: 45rem;
+    
+}
+nav {
+    margin-top: 60rem;
+    background-color: rgba(0, 0, 0, 0.226);
+   
+}
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+h3 {
+    font-size: 3rem;
+}
+form {
+    font-size: 1rem;
+}
+.ibox {
+    min-width: 34rem;
+    font-size: 2.5rem;
+    margin-left: -1rem;
+}
+.submit {
+    font-size:2.15rem;
+}
+.skills {
+    background: url('sash_copy.jpg')no-repeat;
+    background-size: 110rem 35rem;
+    min-height: 35rem;
+    min-width: 45rem;
+    font-family: 'Jagged (BRK)';
+}
+.html {
+    background: url('HTML_merit.png')no-repeat;
+    background-size: 10rem;
+    background-position: 1.4rem 0rem;
+    height: 13rem;
+    min-width: 35rem;
+}
+.css {
+    background: url('css_merit.png')no-repeat;
+    background-size: 10rem;
+    background-position: 3rem 0rem;
+    height: 13rem;
+    min-width: 35rem;
+}
+.javascript {
+    background: url('js_merit.png')no-repeat center;
+    background-size: 10rem;
+    background-position: 3rem 0rem;
+    height: 13rem;
+    width: 35rem;
+}
+.projects {
+    background: url('project_back.jpg') center;
+    position: absolute;
+    height: 32rem;
+    min-width: 45rem;
+    background-position: 1rem;
+    background-size: 43rem;
+    margin: 0rem 0rem 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.p-header {
+    background-color: rgb(253, 143, 8);
+    width: 45rem;
+}
+.backpack {
+    display: flex;
+}
+.billy {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.guess {
+    display: flex;
+    flex-direction: row;
+}
+.math {
+    display: flex;
+    flex-direction: row-reverse
+}
+
+@media(min-width: 1800px) {
+    nav {
+        margin-top: 33rem;
+    }
+    header {
+        min-height: 45rem;
+    }
+    .links {
+        margin: .25rem;
+    }
+    form {
+        display: flex;
+        justify-content: center;
+    }
+    .skills {
+        background: url('sash_copy.jpg')no-repeat;
+        background-size: 147rem 35rem;
+        min-height: 35rem;
+        min-width: 45rem;
+        font-family: 'Jagged (BRK)';
+    }
+    .html {
+        background: url('HTML_merit.png')no-repeat;
+        background-size: 18rem;
+        background-position: 0rem -1rem;
+        min-height: 80rem;
+        min-width: 45rem;
+    
+    }
+    .projects {
+        background: url('project_back.jpg')center;
+        height: 25rem;
+        min-width: 130.15rem;
+        background-position: 0rem;
+        background-size: 33rem;
+        margin: 0rem 0rem 0rem 0rem;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .p-header {
+        background-color: rgb(253, 143, 8);
+        width: 130.15rem;
+        margin: 0;
+    }
+    .backpack {
+        display: flex;
+    }
+    .billy {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .guess {
+        display: flex;
+        flex-direction: row;
+    }
+    .math {
+        display: flex;
+        flex-direction: row-reverse
+    }
+}
