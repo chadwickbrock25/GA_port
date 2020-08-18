@@ -4,12 +4,26 @@ body {
 header {
     background: url("evolve_back.jpg")no-repeat center fixed; 
     background-size: cover;
-    min-height: 72rem;
+    min-height: 30rem;
     min-width: 45rem;
     
 }
+h1 {
+    font-size: 7rem;
+    margin: 5rem;
+}
+h2 {
+    font-size:4rem;
+
+}
+.open {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
 nav {
-    margin-top: 60rem;
+    margin-top: 30rem;
     background-color: rgba(0, 0, 0, 0.226);
    
 }
@@ -73,8 +87,10 @@ form {
 
 }
 .p-header {
-    background-color: rgb(253, 143, 8);
+    background: url('evolve_back.jpg');
     width: 45rem;
+    background-size: cover;
+    color: white;
 }
 .backpack {
     display: flex;
@@ -94,10 +110,10 @@ form {
 
 @media(max-width: 1800px) {
     nav {
-        margin-top: 33rem;
+        margin-top: 6rem;
     }
     header {
-        min-height: 45rem;
+        height: 39rem;
     }
     .links {
         margin: .25rem;
@@ -134,9 +150,11 @@ form {
         align-items: center;
     }
     .p-header {
-        background-color: rgb(253, 143, 8);
+        background: url('evolve_back.jpg')fixed center;
         width: 84.35rem;
         margin: 0;
+        background-size: cover;
+        color: black;
     }
     .backpack {
         display: flex;
