@@ -92,7 +92,7 @@ form {
     flex-direction: row-reverse
 }
 
-@media(min-width: 1800px) {
+@media(max-width: 1800px) {
     nav {
         margin-top: 33rem;
     }
@@ -123,10 +123,10 @@ form {
     }
     .projects {
         background: url('project_back.jpg')center;
-        height: 25rem;
-        min-width: 130.15rem;
+        height: 16rem;
+        min-width: 84.35rem;
         background-position: 0rem;
-        background-size: 33rem;
+        background-size: 21.5rem;
         margin: 0rem 0rem 0rem 0rem;
         display: flex;
         flex-direction: row;
@@ -135,7 +135,7 @@ form {
     }
     .p-header {
         background-color: rgb(253, 143, 8);
-        width: 130.15rem;
+        width: 84.35rem;
         margin: 0;
     }
     .backpack {
